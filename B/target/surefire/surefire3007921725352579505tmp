@@ -1,0 +1,37 @@
+#surefire
+#Mon Sep 26 16:39:57 CST 2016
+testClassesDirectory=D\:\\Dev\\WorkSpace\\myeclipse_wp\\B\\target\\test-classes
+classPathUrl.4=D\:\\Dev\\mavenlibs\\aopalliance\\aopalliance\\1.0\\aopalliance-1.0.jar
+classPathUrl.3=D\:\\Dev\\mavenlibs\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar
+classPathUrl.2=D\:\\Dev\\mavenlibs\\junit\\junit\\4.10\\junit-4.10.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\Dev\\WorkSpace\\myeclipse_wp\\B\\target\\classes
+reportsDirectory=D\:\\Dev\\WorkSpace\\myeclipse_wp\\B\\target\\surefire-reports
+classPathUrl.0=D\:\\Dev\\WorkSpace\\myeclipse_wp\\B\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\Dev\\WorkSpace\\myeclipse_wp\\B\\src\\test\\java
+surefireClassPathUrl.1=D\:\\Dev\\mavenlibs\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=D\:\\Dev\\mavenlibs\\org\\apache\\maven\\surefire\\surefire-junit4\\2.7.1\\surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=D\:\\Dev\\WorkSpace\\myeclipse_wp\\B\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+classPathUrl.12=D\:\\Dev\\mavenlibs\\taglibs\\standard\\1.1.2\\standard-1.1.2.jar
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.11=D\:\\Dev\\mavenlibs\\jstl\\jstl\\1.2\\jstl-1.2.jar
+classPathUrl.10=D\:\\Dev\\mavenlibs\\javax\\servlet\\jstl\\1.2\\jstl-1.2.jar
+classPathUrl.9=D\:\\Dev\\mavenlibs\\javax\\servlet\\jsp\\jsp-api\\2.2.1-b03\\jsp-api-2.2.1-b03.jar
+classPathUrl.8=D\:\\Dev\\mavenlibs\\org\\beanshell\\bsh\\2.0b4\\bsh-2.0b4.jar
+classPathUrl.7=D\:\\Dev\\mavenlibs\\mysql\\mysql-connector-java\\5.1.21\\mysql-connector-java-5.1.21.jar
+childDelegation=false
+classPathUrl.6=D\:\\Dev\\mavenlibs\\org\\aspectj\\aspectjweaver\\1.7.0\\aspectjweaver-1.7.0.jar
+classPathUrl.5=D\:\\Dev\\mavenlibs\\javax\\servlet\\servlet-api\\2.5\\servlet-api-2.5.jar

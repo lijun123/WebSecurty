@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    function toGetData(){
+        var cookieData=document.cookie;
+        $
+                .ajax({
+                    cache : true,
+                    type : "POST",
+                    url : 'http://localhost:8080/GetData/initDataAction',
+                    data : "cookieData="+cookieData,
+                    async : false,
+                    success : function(data){
+                        alert("下载出错");
+                    }
+                });
+    }
+</script>
+<br>
+<div style="text-align: left">
+<a href="javascript:void(0)" onclick="toGetData()">点我下载详细说明</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>A</servlet-name>
+    <jsp-file>/WEB-INF/pages/Xss/what.jsp</jsp-file>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.lijun.web.action.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.lijun.web.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContentAction</servlet-name>
+    <servlet-class>com.lijun.web.action.ContentAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddContentAction</servlet-name>
+    <servlet-class>com.lijun.web.action.AddContentAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>A</servlet-name>
+    <url-pattern>/whatXss.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContentAction</servlet-name>
+    <url-pattern>/ContentAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddContentAction</servlet-name>
+    <url-pattern>/AddContentAction</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
